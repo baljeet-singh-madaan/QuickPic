@@ -7,3 +7,20 @@ body {
   background-color: #121212;
   color: #E5E2E1;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.error-snackbar {
+  --mdc-snackbar-container-color: #B71C1C !important;
+  --mdc-snackbar-supporting-text-color: #ffffff !important;
+}
+
+.success-snackbar {
+  --mdc-snackbar-container-color: #00695C !important;
+  --mdc-snackbar-supporting-text-color: #ffffff !important;
+}
+
+.mat-mdc-snack-bar-container {
+  border-radius: 12px !important;
+  font-family: 'Manrope', sans-serif;
+}
