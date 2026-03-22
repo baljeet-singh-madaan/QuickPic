@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/quick-pic/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
